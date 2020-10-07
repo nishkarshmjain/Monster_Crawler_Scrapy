@@ -9,7 +9,6 @@ import scrapy
 
 
 class MonsterItem(scrapy.Item):
-    # define the fields for your item here like:
     title = scrapy.Field()
     companyname = scrapy.Field()
     #companyurl = scrapy.Field()
@@ -17,8 +16,6 @@ class MonsterItem(scrapy.Item):
     jobLocationCity = scrapy.Field()
     jobdescription = scrapy.Field()
     #salary = scrapy.Field()
-
-
     # description_raw = scrapy.Field()
     # job_id = scrapy.Field()
 
